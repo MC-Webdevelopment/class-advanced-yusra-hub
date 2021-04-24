@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <h2>
+        Please click load button to load data before search 
+    </h2>
+     <button id="good_or_bad">Good or Bad</button>
+
+    <input type="text" id="searchInput" placeholder="Type hero name" width="500px"/>
+    <button id="search">Search</button>
+
+    <div id="searchinfo">
+
+    </div>
+    <button id="play">Play a Game</button>
+
+    <div id="game" style="display: none;">
+        <h2 id="guss"></h2>
+        <h3 id="heroName" ></h3> 
+ 
+        Green <input type="checkbox" class="checkbox" name="green"/><br>
+        Blue <input type="checkbox" class="checkbox"name="blue"/><br>
+        Hazel <input type="checkbox" class="checkbox" name="hazel"/><br>
+        Gold <input type="checkbox" class="checkbox"name="gold"/><br>
+        Brown <input type="checkbox" class="checkbox" name="brown"/><br>
+        Yellow <input type="checkbox" class="checkbox"name="yellow"/><br>
+        Red <input type="checkbox" class="checkbox" name="red"/><br>
+        White <input type="checkbox" class="checkbox"name="white"/><br>
+        Black <input type="checkbox" class="checkbox" name="black"/><br>
+        Grey <input type="checkbox" class="checkbox" name="grey"/><br>
+        Amber <input type="checkbox" class="checkbox"name="amber"/><br>
+        Variable <input type="checkbox" class="checkbox"name="Variable"/><br>
+        
+        <br>
+        <button id="answer">Answer</button>
+        <button id="AnotherHero">Another Hero</button>
+
+        <h3 id="result" ></h3>
+
+
+
+    </div>
+   
 </body>
 <script src="script/script.js"></script>
+
 </html>
